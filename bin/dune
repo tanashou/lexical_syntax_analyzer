@@ -1,0 +1,4 @@
+(executable
+ (public_name lexical_syntax_analysis)
+ (name main)
+ (libraries lexical_syntax_analysis))
