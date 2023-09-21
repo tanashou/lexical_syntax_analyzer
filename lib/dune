@@ -1,8 +1,24 @@
-(library
- (name lexical_syntax_analysis))
-
 (ocamllex
  (modules lexer))
 
 (ocamlyacc
  (modules parser))
+
+(library
+ (name eval)
+ (libraries syntax)
+ (modules eval))
+
+(library
+ (name syntax)
+ (modules syntax))
+
+(library
+ (name parser)
+ (libraries syntax)
+ (modules parser))
+
+(library
+ (name lexer)
+ (libraries parser)
+ (modules lexer))
