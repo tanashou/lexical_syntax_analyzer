@@ -1,2 +1,8 @@
 (library
  (name lexical_syntax_analysis))
+
+(ocamllex
+ (modules lexer))
+
+(ocamlyacc
+ (modules parser))
