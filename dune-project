@@ -15,6 +15,8 @@
 
 (documentation https://url/to/documentation)
 
+(map_workspace_root false)
+
 (package
  (name lexical_syntax_analysis)
  (synopsis "A short synopsis")
