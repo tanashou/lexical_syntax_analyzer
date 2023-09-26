@@ -1,3 +1,4 @@
+open Lexical_syntax_analyzer
 let main () =
   let expr = Parser.start Lexer.token (Lexing.from_string (read_line ())) in
   (* これで標準入力を字句解析して、構文解析した結果を expr に入れ *)

@@ -1,5 +1,5 @@
 (executable
  (name main)
  (public_name lexical_syntax_analysis)
- (libraries eval syntax lexer parser)
+ (libraries lexical_syntax_analyzer)
  (modes byte exe))

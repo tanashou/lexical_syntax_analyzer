@@ -5,20 +5,4 @@
  (modules parser))
 
 (library
- (name eval)
- (libraries syntax)
- (modules eval))
-
-(library
- (name syntax)
- (modules syntax))
-
-(library
- (name parser)
- (libraries syntax)
- (modules parser))
-
-(library
- (name lexer)
- (libraries parser)
- (modules lexer))
+(name lexical_syntax_analyzer))
