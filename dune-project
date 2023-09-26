@@ -1,6 +1,6 @@
 (lang dune 3.10)
 
-(name lexical_syntax_analysis)
+(name lexical_syntax_analyzer)
 
 (generate_opam_files true)
 
@@ -18,7 +18,7 @@
 (map_workspace_root false)
 
 (package
- (name lexical_syntax_analysis)
+ (name lexical_syntax_analyzer)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
