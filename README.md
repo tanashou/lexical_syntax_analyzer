@@ -7,20 +7,21 @@ ocamllex と ocamlyacc を使った字句解析器と構文解析器．括弧の
 - Ocaml
 - Dune
 <!-- - Menhir -->
+`opam install .`でインストールできます．
+```sh
+opam install .
+```
 
 ## インストールして欲しいもの
-- ocamlformatter
+- ocamlformat
 
 フォーマッターです．全員で書式を統一した方が楽です．
 - utop
 
-トップレベルでライブラリを試せます．
-
-## インストール方法
-<!-- ```sh
-opam install .
-``` -->
-TODO
+トップ レベルでライブラリを試せます．
+```sh
+opam install ocamlformat utop
+```
 
 ## ビルド方法
 ```sh
